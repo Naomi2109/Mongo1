@@ -26,5 +26,5 @@ const CredentialsSchema = new mongoose.Schema({
 
 module.exports = mongoose.model("User", UserSchema, "user");
 module.exports = mongoose.model("Credentials", CredentialsSchema, "user");
-module.exports = mongoose.model("Profile", ProfileSchema);
+module.exports = mongoose.model("Profile", ProfileSchema, "user");
 
